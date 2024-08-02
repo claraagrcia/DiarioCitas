@@ -93,17 +93,20 @@ nav ul li {
 }
 
 .naturaleza {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2.5rem;
   max-width: 68.75rem;
-  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .naturaleza img {
   height: 37.5rem;
   width: 37.5rem;
+}
+
+.titulo-clase-cita {
+  text-align: left;
+  padding-bottom: 1rem;
 }
 
 .bio {
@@ -339,7 +342,6 @@ footer {
 
   .naturaleza {
     margin-top: -4rem;
-    flex-direction: column;
     gap: 0;
   }
 
