@@ -92,7 +92,7 @@ nav ul li {
   display: none;
 }
 
-.hero {
+.naturaleza {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -101,7 +101,7 @@ nav ul li {
   margin: auto;
 }
 
-.hero img {
+.naturaleza img {
   height: 37.5rem;
   width: 37.5rem;
 }
@@ -337,20 +337,19 @@ footer {
     transform: translateX(0);
   }
 
-  .hero {
+  .naturaleza {
     margin-top: -4rem;
     flex-direction: column;
     gap: 0;
   }
 
-  .hero img {
+  .naturaleza img {
         height: 37.5rem;
         width: 30rem;
     }
 
-  .bio {
-    margin-top: -7rem;
-    width: 20.5rem;
+  .titulo-clase-cita {
+    text-align: center;
   }
 
   .mas-sobre {
@@ -385,7 +384,7 @@ footer {
 }
 
 @media screen and (max-width: 420px) {
-  .hero img {
+  .naturaleza img {
     height: 37.5rem;
     width: 23rem;
   }
